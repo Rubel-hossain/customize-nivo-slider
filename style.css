@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.slider-wrapper {
+	margin:0 auto;
+	height:450px;
+}
+
+.nivo-directionNav a {
+	color:#fff;
+	font-size:45px;
+	line-height:45px;
+	transition:all .5s ease 0s;
+
+}
+.nivo-directionNav a:hover {
+	color:orange;
+}
+.nivo-directionNav .nivo-prevNav {
+	margin-left:20px;
+}
+.nivo-directionNav .nivo-nextNav {
+	margin-right:20px;
+}
+
+.nivo-caption {
+	background:transparent;
+	bottom:40%;
+    text-align:center;
+    opacity:1;
+}
+
+.nivo-caption p {
+	color: #f0ce16;
+	font-size: 18px;
+	font-weight: 800;
+	text-transform: capitalize;
+	font-style:italic;
+	font-family:verdana;
+}
+.nivo-caption p span {
+	color:#f0ce16;
+}
+
+.nivo-caption h2 {
+	color: #2ecc71;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 1.2;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+
+}
